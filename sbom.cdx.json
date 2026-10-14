@@ -1,0 +1,89 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:8ae78b1b-6fb7-5262-9100-9b75b2ee7af7",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T16:41:19Z",
+  "component": {
+   "type": "application",
+   "name": "ENERGY",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/ENERGY@83b357604d34",
+   "purl": "pkg:generic/anticloud/ENERGY@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "github.com/energye/cef",
+   "version": "v1.0.5",
+   "purl": "pkg:golang/github.com/energye/cef@v1.0.5",
+   "bom-ref": "go/github.com/energye/cef@v1.0.5"
+  },
+  {
+   "type": "library",
+   "name": "github.com/energye/lcl",
+   "version": "v1.0.9",
+   "purl": "pkg:golang/github.com/energye/lcl@v1.0.9",
+   "bom-ref": "go/github.com/energye/lcl@v1.0.9"
+  },
+  {
+   "type": "library",
+   "name": "github.com/energye/wv",
+   "version": "v1.0.10",
+   "purl": "pkg:golang/github.com/energye/wv@v1.0.10",
+   "bom-ref": "go/github.com/energye/wv@v1.0.10"
+  },
+  {
+   "type": "library",
+   "name": "github.com/ebitengine/purego",
+   "version": "v0.10.0",
+   "purl": "pkg:golang/github.com/ebitengine/purego@v0.10.0",
+   "bom-ref": "go/github.com/ebitengine/purego@v0.10.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/godbus/dbus/v5",
+   "version": "v5.2.2",
+   "purl": "pkg:golang/github.com/godbus/dbus/v5@v5.2.2",
+   "bom-ref": "go/github.com/godbus/dbus/v5@v5.2.2"
+  },
+  {
+   "type": "library",
+   "name": "github.com/google/uuid",
+   "version": "v1.6.0",
+   "purl": "pkg:golang/github.com/google/uuid@v1.6.0",
+   "bom-ref": "go/github.com/google/uuid@v1.6.0"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/sys",
+   "version": "v0.30.0",
+   "purl": "pkg:golang/golang.org/x/sys@v0.30.0",
+   "bom-ref": "go/golang.org/x/sys@v0.30.0"
+  }
+ ],
+ "sha_unverified": true
+}
